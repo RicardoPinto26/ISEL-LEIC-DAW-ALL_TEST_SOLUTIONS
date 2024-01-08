@@ -1,0 +1,10 @@
+1.1) iv.
+1.2) i.
+1.3) iv.
+1.4) ??.
+1.5) iii.
+1.6) iii.
+
+2) Sempre que a entity tiver um representação disponivel na api, devendo o link ter rel: ["self"] e href deve ser o uri que identifica a sub entity.
+
+3) Uma das suas vantagens de usar métodos idempotentes é que podem ser reenviados caso a resposta não chegue ao cliente, visto que o servidor não altera o estado do recurso após a requisição.
