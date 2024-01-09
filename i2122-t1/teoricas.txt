@@ -1,0 +1,21 @@
+1.1) i.
+1.2) ii.
+1.3) iv.
+1.4) i.
+1.5) iii.
+1.6) ii.
+
+2)
+Diferenças de estrutura:
+Link tem rel, que é a relação que o link tem com a entidade.
+Action tem name, que é unico para aquele recurso e identifica a ação.
+Tem method, que é o método HTTP que será usado ao executar a ação.
+Tem fields, que são os campos que serão enviados ao executar a ação.
+
+Diferença no propósito:
+Link da nos a informação de como obter um recurso relacionado com a entidade, enquanto que Action da a informação de como executar um pedido HTTP relacionado com a entidade, e que pode ou não alterar o estado da mesma.
+
+3) O elemento <a /> trata-se de uma anchor, que é um elemento que permite a navegação entre páginas através de um pedido HTTP para o href e mudança de documento, enquanto que o elemento <Link /> é um componente do React que permite a navegação entre páginas através de client-side routing.
+
+4) Esta funcionalidade dá-se através do bundler disponivel no webpack. O bundler cria funções para export e import dos módulos (que têm dentro de si o código-fonte necessário do módulo), e estas funções são agregadas num só ficheiro.
+
