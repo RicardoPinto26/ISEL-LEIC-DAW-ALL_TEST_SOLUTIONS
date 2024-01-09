@@ -8,7 +8,7 @@ import org.springframework.web.servlet.HandlerInterceptor
 import pt.isel.leic.daw.repositories.HandlersRepository
 
 @Component
-class HandlersInterceptor(val handlersRepository: HandlersRepository): HandlerInterceptor {
+class HandlersInterceptor(val handlersRepository: HandlersRepository) : HandlerInterceptor {
     override fun preHandle(request: HttpServletRequest, response: HttpServletResponse, handler: Any): Boolean {
         handler as HandlerMethod
         handlersRepository.incrementHandler(handler.shortLogMessage)

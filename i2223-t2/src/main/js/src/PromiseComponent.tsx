@@ -36,7 +36,7 @@ export function demo() {
     function promiseGiver() {
         return new Promise<string>((resolve, reject) => {
             setTimeout(() => {
-               Math.random() < 0.5 ? reject("Error") : resolve("Hello World")
+                Math.random() < 0.5 ? reject("Error") : resolve("Hello World")
             }, 2000)
         })
     }

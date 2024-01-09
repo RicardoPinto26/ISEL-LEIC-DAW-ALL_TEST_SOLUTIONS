@@ -16,6 +16,7 @@ class PipelineConfigurer(val handlersInterceptor: HandlersInterceptor) : WebMvcC
         registry.addInterceptor(handlersInterceptor)
     }
 }
+
 fun main(args: Array<String>) {
     runApplication<Application>(*args)
 }

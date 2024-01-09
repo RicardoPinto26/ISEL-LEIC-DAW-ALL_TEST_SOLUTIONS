@@ -10,12 +10,13 @@ import org.springframework.web.servlet.ModelAndView
 import pt.isel.leic.daw.repositories.ErrorsRepository
 
 @Component
-class ErrorsInterceptor(val errorsRepository: ErrorsRepository): HandlerInterceptor {
+class ErrorsInterceptor(val errorsRepository: ErrorsRepository) : HandlerInterceptor {
 
     override fun preHandle(request: HttpServletRequest, response: HttpServletResponse, handler: Any): Boolean {
         request.setAttribute("startTime", System.currentTimeMillis())
         return true
     }
+
     override fun postHandle(
         request: HttpServletRequest,
         response: HttpServletResponse,
@@ -27,7 +28,7 @@ class ErrorsInterceptor(val errorsRepository: ErrorsRepository): HandlerIntercep
                 request.getAttribute("startTime") as Long,
                 request.method,
                 request.requestURI,
-                if(handler is HandlerMethod) handler.beanType.simpleName else null
+                if (handler is HandlerMethod) handler.beanType.simpleName else null
             )
         }
     }
