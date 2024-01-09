@@ -3,7 +3,7 @@
 1.3) ii.
 1.4) i.
 1.5) iv. (A não é anchor)
-1.6) ii./iii.???? 
+1.6) iii.
 
 2. A classe anotada será automaticamente instanciada caso seja parametro de outro component.
 
