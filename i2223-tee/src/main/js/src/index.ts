@@ -1,3 +1,3 @@
-import {demo} from "./file";
+import {demo} from "./PromiseComponent";
 
 demo()

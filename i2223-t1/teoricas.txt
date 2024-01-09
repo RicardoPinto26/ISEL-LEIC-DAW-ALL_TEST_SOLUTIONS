@@ -1,7 +1,7 @@
 1.1) iii.
 1.2) i.?
 1.3) ii.
-1.4) iv.? Parece-me estranho a resposta ser "usar React Router" visto que há outras maneiras de o fazer
+1.4) i.
 1.5) iv. (A não é anchor)
 1.6) iii. 
 

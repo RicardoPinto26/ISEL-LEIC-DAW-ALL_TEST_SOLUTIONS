@@ -1,0 +1,12 @@
+1.1) iii.
+1.2) ii.
+1.3) iv.
+1.4) i.
+1.5) iii.
+1.6) iv.
+
+2) Uma das suas vantagens de usar métodos idempotentes é que podem ser reenviados caso a resposta não chegue ao cliente, visto que o servidor não altera o estado do recurso após a requisição.
+
+
+3) Além do webpack realizar otimizações de desempenho no empacotamento do código, o empacotamento também gera um número inferior de módulos para enviar ao browser, diminuindo o número de pedidos HTTP.
+

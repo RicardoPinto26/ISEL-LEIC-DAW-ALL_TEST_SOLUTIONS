@@ -10,4 +10,4 @@ rootProject.name = "all_tests"
 
 include("i2223-t1")
 include("i2223-t2")
-//include("i2223-tee")
+include("i2223-tee")
